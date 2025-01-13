@@ -20,15 +20,17 @@
         ]
     },
     "Secu": {
-        "circleStyle": "calc((502 * (100 - 0)) / 100)",
-        "circleText": "--",
+        "circleStyle": "calc((502 * (100 - 80)) / 100)",
+        "circleText": "80%",
         "description": [
             "<h4> Sécurité </h4> <hr />",
-			"<p class='text'> Nous étudions encore la sécurité, ainsi je n'ai pas encore de compétences dans ce domaine.</p>",
-			"<p class='text'> . ",
-			    "</p>",
-			"<p class='text'> .</p> <hr />",
-			"<p class='compR text resume'> <b>Compétences</b> </p>"
+			"<p class='text'> Lors de nombreux TD et TP, j'au eu l'occasion d'apprendre différentes notions de cybersécurité, que ce soit côté attaque ou défense.</p>",
+            "<p class='text'> En effet, pour le côté défense, j'ai eu l'occasion d'apprendre comment configurer et sécuriser un service DNS primaire et secondaire, à configurer un transfert de zone,",
+                " et à les signer à l'aide de clés DNSSEC.",
+			"<p class='text'> J'ai également appris à sécuriser un point d'accès Wifi à l'aide d'un serveur Freeradius et de règles Iptables, afin de vérifier que seuls les utilisateurs authentifiés ",
+			    " avaient accès à internet. J'ai également appris à configurer un portail captif, toujours à l'aide de Freeradius.</p>",
+			"<p class='text'> Enfin, pour le côté attaque, j'ai appris des notions de pentesting, en m'entrainant sur diverses machines et dans diverses situations.</p> <hr />",
+			"<p class='compR text resume'> <b>Pentesting</b> / <b>Freeradius</b> / <b>DNS</b> / <b>DNSSEC</b> / <b>Portail captif</b> </p>"
         ]
     },
     "Progra": {
@@ -36,11 +38,11 @@
         "circleText": "90%",
         "description": [
             "<h4>Programmation</h4> <hr />",
-			"<p class='text'> Lors de Projets et dans le cadre de ma Terminale spécialité NSI, j'ai appris la programmation python.</p>",
+			"<p class='text'> Lors de Projets et dans le cadre de ma Terminale spécialité NSI, j'ai appris la programmation python ainsi que le Java.</p>",
 			"<p class='text'> En effet, j'ai découvert la programmation Python lors de mon année de Première. J'ai par la suite pu renforcer grandement mes compétences",
-			    " lors de mes projets, notamment mon projet de Terminale, mais aussi lors de mes projets de BUT.</p>",
-			"<p class='text'> J'ai également appris à traiter les données d'un fichier excel grâce à la librairie Pandas.</p> <hr />",
-			"<p class='text resume'><b>Programmation</b> / <b>Python</b> / <b>Pandas</b> / <b>Traitement de données</b> / <b>Java</b> </p> <hr />",
+			    " lors de mes projets, notamment mon projet de Terminale, mais aussi lors de mes projets de BUT, comme lorsque j'ai appris à traiter les données d'un fichier excel grâce à la librarie Pandas.</p>",
+			"<p class='text'> Enfin, j'ai réaliser une application de microblogging pour Android, en Java, utilisant les services backend de Firebase. </p> <hr />",
+			"<p class='text resume'><b>Programmation</b> / <b>Python</b> / <b>Pandas</b> / <b>Traitement de données</b> / <b>Java</b> / <b>Firebase</b> </p> <hr />",
 			"<br />",
 			"<h4>Programmation Web</h4> <hr />",
 			"<p class='text'> Lors de Projets et dans le cadre de ma Terminale spécialité NSI, j'ai appris la programmation web</p>",
@@ -224,22 +226,25 @@
 			"</div></div>"
         ]
     },
-    "SAE11": {
+    "FluxBiz": {
         "description": [
-            "<h3 class='souligne'>Se sensibiliser à l'hygiène Informatique et à la Cybersécurité (SAE11)</h3>",
+            "<h3 class='souligne'>Développer des applications communicantes (SAE32)</h3>",
 			"<div class='descript'>",
-			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de découvrir certaines notions du monde du numérique.</p>",
-			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de découvrir, par équipe de 3, un <b>sujet</b>, défini par notre enseignant, en lien avec notre formation. </p>",
-			"<p class='texte'> Mes camarades et moi avions décidé de traiter de la <b> Sécurité des mots de passe</b>. Nous devions ensuite <b>présenter</b> ",
-				" notre sujet à notre enseignant ainsi qu'à l'ensemble de nos camarades. </p>",
-			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de découvrir et d'expliquer quel est l' <b>utilité</b> d'un mot de passe, comment est calculée leur <b>robustesse</b>,",
-				" d'expliquer que cette robustesse est exprimée en <b>entropie de shannon</b>, et enfin de montrer l'importance d'un mot de passe <b>robuste</b>. </p> <br />",
-			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est visible via le bouton situé ci-dessous ou via la section contact. </p>",
-			"<p class='texte'>Pour le compte-rendu de ce projet, nous avions obtenu la note de 15,25/20</p> <br />",
+			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de développer une application communicante.</p>",
+			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de développer, par groupe ou seul, une <b>application de chat-stream direct</b> pour le personnel de l'entreprise. </p>",
+			"<p class='texte'> Cette application devait absolument être codée en <b>Java</b>. En revanche, nous pouvions choisir nous même les autres technologies. Ainsi, pour le backend de notre application, ",
+				" nous avons décidé d'opter pour Firebase et l'ensemble de ses outils. </p>",
+			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission a donc consisté à coder cette application de A à Z, en passant par de multiples fonctionnalités, telles que l'<b>Authentification</b>,",
+				" <b>l'envoi de messages</b>, le fait de pouvoir <b>liker</b> ces messages, et que tout les utilisateurs puissent consulter ces messages. De plus, les messages devaient être triés par ordre d'importance </p>",
+            "<p class='texte'> Ainsi, lors de ce projet, je me suis rendu compte que les fonctionnalités attendues ressemblait aux fonctionnalités de l'application de microblogging appelée X,",
+                " mais plus connue sous le nom de <b>Twitter</b>. Ainsi, j'ai décidé d'opter pour une application ressemblant le plus possible à cette application. Aujourd'hui, ce projet est devenu à mes yeux un projet à plein temps,",
+                " que je continue à développer et à améliorer afin de rajouter des fonctionnalités, et corriger des bugs. Aujourd'hui, nous sommes à la <b>version 1.2</b> de mon application. </p> <br/>",
+			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est disponible sur mon Github, que vous pouvez trouver dans la section 'Contact'. Le répertoire du projet est également accessible via le bouton située en dessous. </p>",
+			"<p class='texte'>Pour ce projet, nous n'avons pas encore de notes</p> <br />",
 			"<div class='GButton aligne'>",
-				"<a class='down' href='https://docs.google.com/presentation/d/1kUyIZrO5bjbE0_ReKLKvoa2l6XJ5XuS9inuAStk6UMA/edit?usp=sharing' target='_blank' rel='noopener'>",
-					"<i class='bx bx-shield-quarter icon'></i>",
-					"<span class='down'> Présentation Google Slide</span> </a>",
+				"<a class='down' href='https://github.com/KelyanDev/FluxBiz' target='_blank' rel='noopener'>",
+					"<i class='bx bx-folder icon'></i>",
+					"<span class='down'> Répertoire Github</span> </a>",
 			"</div> <br><br> </div>"
         ]
     },

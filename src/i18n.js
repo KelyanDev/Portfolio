@@ -85,13 +85,13 @@ const resources = {
             },
             projects: {
                 /* === Projects === */
-                'Integration': 'Integrative Project (SAE24)',
                 'Title': 'Projects',
+                'Integration': 'Integrative Project (SAE24)',
+                'FluxBiz': 'Coding communicating applications(SAE32)',
                 'Numeric': 'Numeric Signal Simulation (SAE22)',
                 'Re-App': 'React App',
                 'Ticket': 'Ticket Management Application (SAE23)',
                 'Data': 'Data analysis (SAE15)',
-                'Aware': 'Awareness of computer hygiene(SAE11)',
                 'Game': 'Gaming console (12th Grade)'
             },
             miscellaneous: {
@@ -199,13 +199,13 @@ const resources = {
             },
             projects: {
                 /* === Projects === */
-                'Integration': 'Projet Intégratif (SAE24)',
                 'Title': 'Projets',
+                'Integration': 'Projet Intégratif (SAE24)',
+                'FluxBiz': "Développer des applications communicantes (SAE32)",
                 'Numeric': 'Simulation de signaux numériques (SAE22)',
                 'Re-App': 'Application React',
                 'Ticket': 'Application de gestion de tickets (SAE23)',
                 'Data': 'Analyse de données (SAE15)',
-                'Aware': "Sensibilisation à l'hygiène informatique(SAE11)",
                 'Game': 'Console de Jeu (Terminale)'
             },
             miscellaneous: {

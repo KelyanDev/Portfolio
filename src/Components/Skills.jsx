@@ -97,11 +97,6 @@ function HardSkills() {
                     <h4>{t('skills.Title-list')}</h4>
                 </div>
                 <div className="aligne select">
-                    <label className="container" htmlFor="Syst">
-                        <input type="radio" id="Syst" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
-                        <span className="checkmark"> {t('skills.Syst')}</span>
-                        {t('skills.Syst')}
-                    </label>
                     <label className="container" htmlFor="Secu">
                         <input type="radio" id="Secu" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
                         <span className="checkmark"> {t('skills.Secu')}</span>
@@ -116,6 +111,11 @@ function HardSkills() {
                         <input type="radio" id="Conf" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
                         <span className="checkmark"> {t('skills.Net')} </span>
                         {t('skills.Net')}
+                    </label>
+                    <label className="container" htmlFor="Syst">
+                        <input type="radio" id="Syst" name="Compétences" className="RadComp" onChange={handleRadioChange}/>
+                        <span className="checkmark"> {t('skills.Syst')}</span>
+                        {t('skills.Syst')}
                     </label>
                     <label className="container">
                         <input type="radio" id="Analy" name="Compétences" className="RadComp" onChange={handleRadioChange}/>

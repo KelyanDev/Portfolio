@@ -60,6 +60,11 @@ export default function Projects() {
                                     {t('projects.Integration')}
                                 </label>
                                 <label className="containerproj">
+                                    <input type="radio" id="FluxBiz" name="Projets" className="RadProj" onChange={handleRadioChange}/>
+                                    <span className="checkmark"> {t('projects.FluxBiz')}</span>
+                                    {t('projects.FluxBiz')}
+                                </label>
+                                <label className="containerproj">
                                     <input type="radio" id="SAE22" name="Projets" className="RadProj" onChange={handleRadioChange}/>
                                     <span className="checkmark"> {t('projects.Numeric')}</span>
                                     {t('projects.Numeric')}
@@ -83,11 +88,6 @@ export default function Projects() {
                                     <input type="radio" id="Portfolio" name="Projets" className="RadProj" onChange={handleRadioChange}/>
                                     <span className="checkmark"> Portfolio (SAE14,SAE25)</span>
                                     Portfolio (SAE14,SAE25)
-                                </label>
-                                <label className="containerproj">
-                                    <input type="radio" id="SAE11" name="Projets" className="RadProj" onChange={handleRadioChange}/>
-                                    <span className="checkmark"> {t('projects.Aware')}</span>
-                                    {t('projects.Aware')}
                                 </label>
                                 <label className="containerproj">
                                     <input type="radio" id="Hatsu" name="Projets" className="RadProj" onChange={handleRadioChange}/>
