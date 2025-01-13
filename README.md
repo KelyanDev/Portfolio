@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <a href="https://KelyanDev.github.io"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"</a> <hr>
+  <a href="https://KelyanDev.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white"</a> <hr>
   <h3> Languages/Tools :</h3>
      <a href="https://react.dev/learn"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>                                 <!-- React -->
      <a href="https://www.w3schools.com/nodejs/default.asp"><img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"></a>     <!-- NodeJS -->
@@ -13,7 +13,7 @@
 </div> <hr>
 
 
-My Portfolio Website, which you can find by clicking here: https://kelyandev.github.io (or by clicking the portfolio button)   
+My Portfolio Website, which you can find by clicking here: https://kelyandev.github.io/Portfolio (or by clicking the portfolio button)   
 Since version 2.0, fully developed in React
 
 >[!NOTE]
