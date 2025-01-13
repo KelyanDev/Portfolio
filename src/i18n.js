@@ -162,7 +162,7 @@ const resources = {
                 // BDE BUT R&T
                 'Exp-2-Tit': 'BDE Alert',
                 'Exp-2-P1': "Lors de ma deuxième année de BUT Réseaux et Télécommunications (2024 - 2025), j'ai eu l'occasion d'intégrer le BDE du BUT R&T.",
-                'Exp-2-P2': "Le BDE Alert est une association qui est responsable de l'organisation de différentes sorties pour les étudiants de sa formation.",
+                'Exp-2-P2': "Le BDE Alert est une association responsable de l'organisation de différentes sorties pour les étudiants de notre formation.",
                 'Exp-2-P3': "Au sein du BDE, j'ai eu l'occasion de réaliser différentes tâches liés à l'administration et l'organisation d'évènements.",
                 'Exp-2-P4': "Nous avons par exemple organisé un week end d'intégration pour les étudiants de la formation, week end qui nécessitait une bonne organisation.",
                 // Stage de 3ème
