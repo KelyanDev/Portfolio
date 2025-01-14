@@ -26,7 +26,12 @@ export default function Projects() {
 
         if (!sectionData) {
             return (
-                <h3 className="souligne"> Merci de sélectionner un projet parmis la liste </h3>
+                <>
+                    <h3 className="souligne"> Mes projets </h3>
+                    <div className="descript"><br/>
+                        <p className="texte"> Ici, vous pourrez trouver une liste des projets que j'ai pu réaliser, que ce soit lors de mon cursus ou en dehors.</p>
+                    </div>
+                </>
             );
         };
 

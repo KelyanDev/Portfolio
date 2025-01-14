@@ -19,20 +19,19 @@ const resources = {
             about: {
                 /* === About me === */
                 'Title': 'Second year student in Network and Telecommunications',
-                'Part1': "My name is <b>Tournebize Kélyan</b>, I'm 18 years old and I'm a second year student in <b>Networks and Telecommunications</b> Bachelor.",
+                'Part1': "My name is <b>Tournebize Kélyan</b>, I'm 19 years old and I'm a second year student in <b>Networks and Telecommunications</b> Bachelor, with a <b>Cybersecurity</b> specialty.",
                 'Part2': `After graduating from a General Baccalaureate with Mathematics and Numerical & Computer Sciences specialties (NSI in France),
                     I decided to join a training course in Networks and Telecommunications in order to be able to follow the <b>Cybersecurity</b> course offered upon the second year,
-                    but also for the possibility of following an <b>apprenticeship</b>, during the second and third years of study.`,
-                'Part3': `Currently, I am <b>looking for</b> a <b>internship contract</b> starting in Spring 2025, for a period of <b>2 months</b>, in order to work with a company and strengthen my skills
-                    while understanding the challenges of the professional environment.`,
+                    but also for the possibility of following an <b>apprenticeship</b>, during the second and third years of study. I'm passionnate, autonomous and persevering`,
+                'Part3': `Currently, I am looking forward to continue as a third year student in my Bachelor, starting in September 2025.`,
             },
             training: {
                 /* === Training course === */
                 'Title': "Training course",
-                'Train-4-Desc': 'Second year student of a bachelor in Networks and Telecommunications',
-                'Train-3-Tit': "July 2024",
-                'Train-3-Desc': "First year completion of a bachelor in Networks and Telecommunications",
-                'Train-2-Desc': "First year of a bachelor in Networks and Telecommunications",
+                'Train-4-Tit': 'February 2025',
+                'Train-4-Desc': 'Third semester completion of a bachelor in Networks and Telecommunications',
+                'Train-3-Desc': 'Second year student of a bachelor in Networks and Telecommunications',
+                'Train-2-Desc': "First year completion of a bachelor in Networks and Telecommunications",
                 'Train-1-Tit': "June 2023",
                 'Train-1-Desc': "Graduating from a French Baccalaureate with Mathematics and Numeric & Computer Science (NSI) specialties, with honors",
             },
@@ -40,17 +39,17 @@ const resources = {
                 /* === Professional Experience === */
                 'Title': 'Professional Experience',
                 // Soutien
-                'Exp-3-Tit': 'Support for first-year students',
-                'Exp-3-P1': "From September 2024 to February 2025, I had the opportunity to provide support in telecommunications for first-year students.",
-                'Exp-3-P2': "I helped first-year students in my program who were struggling to understand their telecommunications courses.",
-                'Exp-3-P3': "I had to assist some students in understanding certain concepts related to their courses, by having them redo exercices or explaining these concepts to them.",
-                'Exp-3-P4': "This experience allowed me to develop my sense of responsibility and my ability to teach.",
+                'Exp-3-Tit': 'User support integration internship',
+                'Exp-3-P1': "Starting in early April of 2025, I'll work as an intern in the company named 'Abicom'.",
+                'Exp-3-P2': "",
+                'Exp-3-P3': "",
+                'Exp-3-P4': "",
                 // BDE BUT R&T
-                'Exp-2-Tit': 'BDE Alert',
-                'Exp-2-P1': "During my second year of my bachelor in Networks and Telecommunications (2024 - 2025), I had the opportunity to join the student union of my formation.",
-                'Exp-2-P2': "The student union is an association whose aim is to organize outings for students.",
-                'Exp-2-P3': "Within the student union, I had the chance to carry out various tasks related to administration and events organization.",
-                'Exp-2-P4': "For example, we organized a welcome weekend for the students of the program, which required torough planning..",
+                'Exp-2-Tit': 'Support for first-year students',
+                'Exp-2-P1': "From September 2024 to December 2024, I had the opportunity to provide support in telecommunications for first-year students.",
+                'Exp-2-P2': "I helped first-year students in my program who were struggling to understand their telecommunications courses.",
+                'Exp-2-P3': "I had to assist some students in understanding certain concepts related to their courses, by having them redo exercices or explaining these concepts to them.",
+                'Exp-2-P4': "This experience allowed me to develop my sense of responsibility and my ability to teach.",
                 // Stage de 3ème
                 'Exp-1-Tit': 'Bacteriology internship',
                 'Exp-1-P1': "During my ninth (9th) grade, I had the opportunity to do a one-week internship at the Vichy Thermal Baths.",
@@ -132,21 +131,19 @@ const resources = {
             about: {
                 /* === About me === */
                 Title: 'Etudiant en deuxième année de BUT Réseaux et Télécommunications',
-                Part1: "Je m'appelle <b>Tournebize Kélyan</b>, j'ai 18 ans, et je suis étudiant en deuxième année de BUT en <b>Réseaux et Télécommunications</b>.",
+                Part1: "Je m'appelle <b>Tournebize Kélyan</b>, j'ai 19 ans, et je suis étudiant en deuxième année de BUT en <b>Réseaux et Télécommunications</b>, spécialité <b>Cybersécuritée</b>.",
                 Part2: `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
                     j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
-                    mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année.`,
-                Part3: `Actuellement, je suis à la <b>recherche</b> d'un <b>stage</b> à compter de Printemps 2025,
-                    pour une <b>durée</b> de <b>2 mois</b>, afin de travailler avec une entreprise et renforcer mes compétences
-                    tout en comprenant les enjeux du milieu professionnel.`
+                    mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année. Je suis quelqu'un de <b>passionné</b>, d'<b>autonome</b> et de <b>persévérant</b>.`,
+                Part3: `Actuellement, je souhaite continuer à suivre ma formation en tant qu'alternant en 3ème année dès Septembre 2025.`
             },
             training: {
                 /* === Training course === */
                 'Title': "Formation",
-                'Train-4-Desc': 'Deuxième année de BUT Réseaux et Télécommunications',
-                'Train-3-Tit': "Juillet 2024",
-                'Train-3-Desc': "Validation première année de BUT Réseaux et Télécommunications",
-                'Train-2-Desc': "Première année de BUT en Réseaux et Télécommunications",
+                'Train-4-Tit': 'Février 2025',
+                'Train-4-Desc': 'Validation troisième semestre de BUT Réseaux et Télécommunications',
+                'Train-3-Desc': 'Deuxième année de BUT Réseaux et Télécommunications',
+                'Train-2-Desc': "Validation première année de BUT Réseaux et Télécommunications",
                 'Train-1-Tit': "Juin 2023",
                 'Train-1-Desc': "Obtention d'un Baccalauréat Général spécialités Maths et NSI, mention assez bien"
             },
@@ -154,17 +151,17 @@ const resources = {
                 /* === Professional Experience === */
                 'Title': 'Experience professionnelle',
                 // Soutien
-                'Exp-3-Tit': 'Soutien élèves de première année',
-                'Exp-3-P1': "De Septembre 2024 jusqu'à Février 2025, j'ai eu l'occasion de réaliser du soutien en télécommunications pour les élèves de premières années.",
-                'Exp-3-P2': "J'ai en effet aider des étudiants de première année de ma formation qui avaient des difficultés dans la compréhension de leurs cours de télécommunications.",
-                'Exp-3-P3': "J'ai donc dû aider certains élèves à comprendre certaines notions liées aux cours, en leur faisant refaire des exercices où en leur expliquant ces notions.",
-                'Exp-3-P4': "Ainsi, cette expérience m'as permis de développer ma responsabilité et ma capacité à enseigner.",
+                'Exp-3-Tit': "Stage d'intégration au service Support Utilisateur",
+                'Exp-3-P1': "A partir de début Avril 2025, je réaliserai un stage au sein de l'entreprise Abicom, et ce pour une durée de 2 mois.",
+                'Exp-3-P2': "",
+                'Exp-3-P3': "",
+                'Exp-3-P4': "",
                 // BDE BUT R&T
-                'Exp-2-Tit': 'BDE Alert',
-                'Exp-2-P1': "Lors de ma deuxième année de BUT Réseaux et Télécommunications (2024 - 2025), j'ai eu l'occasion d'intégrer le BDE du BUT R&T.",
-                'Exp-2-P2': "Le BDE Alert est une association responsable de l'organisation de différentes sorties pour les étudiants de notre formation.",
-                'Exp-2-P3': "Au sein du BDE, j'ai eu l'occasion de réaliser différentes tâches liés à l'administration et l'organisation d'évènements.",
-                'Exp-2-P4': "Nous avons par exemple organisé un week end d'intégration pour les étudiants de la formation, week end qui nécessitait une bonne organisation.",
+                'Exp-2-Tit': 'Soutien élèves de première année',
+                'Exp-2-P1': "De Septembre 2024 jusqu'à Décembre 2024, j'ai eu l'occasion de réaliser du soutien en télécommunications pour les élèves de premières années, pour une durée totale d'une dizaine d'heures.",
+                'Exp-2-P2': "J'ai en effet aider des étudiants de première année de ma formation qui avaient des difficultés dans la compréhension de leurs cours de télécommunications.",
+                'Exp-2-P3': "J'ai donc dû aider certains élèves à comprendre certaines notions liées aux cours, en leur faisant refaire des exercices où en leur expliquant ces notions.",
+                'Exp-2-P4': "Ainsi, cette expérience m'as permi de développer ma responsabilité ainsi que ma capacité à vulgariser.",
                 // Stage de 3ème
                 'Exp-1-Tit': 'Stage de bactériologie',
                 'Exp-1-P1': "Lors de mon année de 3ème (Janvier 2020), j'ai eu l'occasion de réaliser un stage d'une semaine aux Thermes de Vichy.",

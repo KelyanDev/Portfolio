@@ -110,7 +110,6 @@
 
 
 
-
     "CompanyNetwork": {
         "description": [
             "<h3 class='souligne'> Projet Intégratif (SAE24) </h3>",
@@ -230,7 +229,7 @@
         "description": [
             "<h3 class='souligne'>Développer des applications communicantes (SAE32)</h3>",
 			"<div class='descript'>",
-			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de développer une application communicante.</p>",
+			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, mais je le réalise également en autonomie afin de l'améliorer.</p>",
 			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de développer, par groupe ou seul, une <b>application de chat-stream direct</b> pour le personnel de l'entreprise. </p>",
 			"<p class='texte'> Cette application devait absolument être codée en <b>Java</b>. En revanche, nous pouvions choisir nous même les autres technologies. Ainsi, pour le backend de notre application, ",
 				" nous avons décidé d'opter pour Firebase et l'ensemble de ses outils. </p>",
