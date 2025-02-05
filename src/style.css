@@ -37,7 +37,7 @@
 body{
 	height: 100%;
 	width: 100%;
-	background: var(--body-color);
+	background: var(--sidebar-color);
 	transition: var(--tran-04);
 }
 
@@ -150,19 +150,39 @@ body.dark{
 }
 
 ::-webkit-scrollbar {
-	width: 4px;
-	height: 3px;
+	width: 10px;
+	height: 4px;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: var(--body-color);
-	border-radius: 4px;
+	background-color: var(--sidebar-color);
+	width: 8px;
+	border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background-color: var(--primary-color);
-	border-radius: 4px;
-	transform: translateX(-5px);
+	border: 2.8px solid var(--sidebar-color);
+	border-radius: 8px;
+}
+
+/* ===== Topbar ===== */
+
+.topbar {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	flex-direction: row-reverse;
+	top: 0px;
+	left: 0px;
+	background: var(--sidebar-color);
+	z-index: 100;
+	transition: box-shadow 0.1s ease-in-out;
+}
+
+.topbar.scrolled {
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* ===== Sidebar ===== */
@@ -489,16 +509,12 @@ body.dark .switch::before{
 
 .liste {
 	position: sticky;
-	top: 120px;
 	left: 120px;
 	width: calc(100% - 86px);
 	height: auto;
 	background: var(--sidebar-color);
 	padding: 10px 14px;
-	border-width: 1px;
-	border-radius: 6px;
-	border-color: var(--text-color);
-	border-style: solid;
+	margin-top: 80px;
 	font-size: 21px;
 	transition: var(--tran-05);
 	z-index: 10;

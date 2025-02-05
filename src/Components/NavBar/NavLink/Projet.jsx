@@ -6,7 +6,7 @@ export default function Projet({ activeSection }) {
 
     return (
         <li className={`nav-lien ${activeSection === 'Projet' ? 'current-sec' : ''}`}>
-          <Link to="Projet" smooth={true} duration={800}>
+          <Link to="Projet" smooth={true} duration={800} offset={-90}>
             <i className="bx bx-spreadsheet icons" />
             <span className="text nav-text"> {t('sidebar.SidProj')} </span>
           </Link>

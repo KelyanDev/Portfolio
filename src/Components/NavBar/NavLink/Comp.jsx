@@ -6,7 +6,7 @@ export default function Competence({ activeSection }) {
 
     return (
         <li className={`nav-lien ${activeSection === 'Competence' ? 'current-sec' : ''}`}>
-          <Link to="Competence" smooth={true} duration={800}>
+          <Link to="Competence" smooth={true} duration={800} offset={-90}>
             <i className="bx bx-slider icons" />
             <span className="text nav-text"> {t('sidebar.SidSkills')} </span>
           </Link>

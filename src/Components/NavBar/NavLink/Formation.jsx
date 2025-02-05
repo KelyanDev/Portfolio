@@ -6,7 +6,7 @@ export default function Formation({ activeSection }) {
 
     return (
         <li className={`nav-lien ${activeSection === 'Formation' ? 'current-sec' : ''}`}>
-          <Link to="Formation" smooth={true} duration={800}>
+          <Link to="Formation" smooth={true} duration={800} offset={-90}>
             <i className="bx bx-building-house icons" />
             <span className="text nav-text"> {t('sidebar.SidTrai')} </span>
           </Link>

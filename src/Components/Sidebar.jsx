@@ -1,7 +1,12 @@
 import HeaderNav from "./NavBar/HeaderNav";
 import Switch from "./NavBar/ColorSwitch";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
+// Custom hook
+import useActiveSection from "../Hooks/useActiveSection";
+
+// Links
 import Default from "./NavBar/NavLink/Default";
 import Formation from "./NavBar/NavLink/Formation";
 import Experience from "./NavBar/NavLink/Exp";
@@ -11,9 +16,6 @@ import Divers from "./NavBar/NavLink/Divers";
 import CV from "./NavBar/NavLink/Cv";
 import Contact from "./NavBar/NavLink/Contact";
 import LangSwitch from "./NavBar/NavLink/Language";
-import { useTranslation } from "react-i18next";
-
-import useActiveSection from "../Hooks/useActiveSection";
 
 
 export default function Sidebar({ isDarkMode, DarkToggle }) {

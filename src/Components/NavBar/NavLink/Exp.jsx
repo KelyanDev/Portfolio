@@ -6,7 +6,7 @@ export default function Experience({ activeSection }) {
 
     return (
         <li className={`nav-lien ${activeSection === 'Experience' ? 'current-sec' : ''}`}>
-          <Link to="Experience" smooth={true} duration={800}>
+          <Link to="Experience" smooth={true} duration={800} offset={-90}>
             <i className="bx bx-briefcase-alt icons" />
             <span className="text nav-text"> {t('sidebar.SidExp')} </span>
           </Link>

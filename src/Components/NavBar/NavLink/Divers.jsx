@@ -6,7 +6,7 @@ export default function Divers({ activeSection }) {
 
     return (
         <li className={`nav-lien ${activeSection === 'Divers' ? 'current-sec' : ''}`}>
-          <Link to="Divers" smooth={true} duration={800}>
+          <Link to="Divers" smooth={true} duration={800} offset={-90}>
             <i className="bx bx-book-bookmark icons" />
             <span className="text nav-text"> {t('sidebar.SidMisc')} </span>
           </Link>

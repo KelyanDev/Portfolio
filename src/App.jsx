@@ -1,6 +1,7 @@
 import './style.css';
 import { useState } from 'react';
 
+import Topbar from './Components/Topbar';
 import Sidebar from './Components/Sidebar';
 import About from './Components/About';
 import Formation from './Components/Formation';
@@ -24,6 +25,7 @@ export default function App() {
   return (
     <>
     <div className='App'>
+      <Topbar />
       <Sidebar isDarkMode={isBodyDark} DarkToggle={toggleDarkMode}/>
       <div className="liste">
         <About />
