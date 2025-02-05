@@ -38,19 +38,19 @@ const resources = {
             experience: {
                 /* === Professional Experience === */
                 'Title': 'Professional Experience',
-                // Soutien
+                // Internship
                 'Exp-3-Tit': 'User support integration internship',
                 'Exp-3-P1': "Starting in early April of 2025, I'll work as an intern in the company named 'Abicom'.",
                 'Exp-3-P2': "",
                 'Exp-3-P3': "",
                 'Exp-3-P4': "",
-                // BDE BUT R&T
+                // Support
                 'Exp-2-Tit': 'Support for first-year students',
                 'Exp-2-P1': "From September 2024 to December 2024, I had the opportunity to provide support in telecommunications for first-year students.",
                 'Exp-2-P2': "I helped first-year students in my program who were struggling to understand their telecommunications courses.",
                 'Exp-2-P3': "I had to assist some students in understanding certain concepts related to their courses, by having them redo exercices or explaining these concepts to them.",
                 'Exp-2-P4': "This experience allowed me to develop my sense of responsibility and my ability to teach.",
-                // Stage de 3ème
+                // 9th grade internship
                 'Exp-1-Tit': 'Bacteriology internship',
                 'Exp-1-P1': "During my ninth (9th) grade, I had the opportunity to do a one-week internship at the Vichy Thermal Baths.",
                 'Exp-1-P2': "During this internship, I helped the establishment's bacteriologist to carry out analyzes on various thermal source waters.",
@@ -135,7 +135,8 @@ const resources = {
                 Part2: `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
                     j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
                     mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année. Je suis quelqu'un de <b>passionné</b>, d'<b>autonome</b> et de <b>persévérant</b>.`,
-                Part3: `Actuellement, je souhaite continuer à suivre ma formation en tant qu'alternant en 3ème année dès Septembre 2025.`
+                Part3: `Je réaliserai un stage en tant que support utilisateur dans l'entreprise <b>Abicom</b>. 
+                    Actuellement, je souhaite continuer à suivre ma formation en tant qu'alternant en 3ème année dès Septembre 2025.`
             },
             training: {
                 /* === Training course === */
@@ -150,13 +151,13 @@ const resources = {
             experience: {
                 /* === Professional Experience === */
                 'Title': 'Experience professionnelle',
-                // Soutien
+                // Stage
                 'Exp-3-Tit': "Stage d'intégration au service Support Utilisateur",
                 'Exp-3-P1': "A partir de début Avril 2025, je réaliserai un stage au sein de l'entreprise Abicom, et ce pour une durée de 2 mois.",
                 'Exp-3-P2': "",
                 'Exp-3-P3': "",
                 'Exp-3-P4': "",
-                // BDE BUT R&T
+                // Soutien
                 'Exp-2-Tit': 'Soutien élèves de première année',
                 'Exp-2-P1': "De Septembre 2024 jusqu'à Décembre 2024, j'ai eu l'occasion de réaliser du soutien en télécommunications pour les élèves de premières années, pour une durée totale d'une dizaine d'heures.",
                 'Exp-2-P2': "J'ai en effet aider des étudiants de première année de ma formation qui avaient des difficultés dans la compréhension de leurs cours de télécommunications.",

@@ -57,8 +57,7 @@ export default function Projects() {
                     <div className="section projects">
                         <div className="aligne">
                             <div className="Affprojets select">
-                                <h4>Liste projets</h4>
-                                <hr />
+                                <h4 className="projectSelectTitle">Liste projets</h4>
                                 <label className="containerproj">
                                     <input type="radio" id="CompanyNetwork" name="Projets" className="RadProj" onChange={handleRadioChange}/>
                                     <span className="checkmark"> {t('projects.Integration')}</span>

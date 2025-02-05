@@ -58,9 +58,9 @@ function HardSkills() {
 						<div id="compDesc">
 							<h4>Sélectionner une compétence</h4>
 							<hr />
-							<p className="text"> -- Les jauges dépendent des résultats attendus par nos professeurs. </p>
-							<p className="text">.</p>
-							<p className="text">.</p>
+							<p className="text"> Vous pouvez cliquer sur l'un des boutons ci-dessus afin de voir les compétences que j'ai dans le domaine correspondant. </p>
+							<p className="text"> Les jauges spécifiées correspondent aux résultats que nous avons obtenu, en fonction des résultats attendus par nos professeurs.</p>
+							<p className="text"> Ci-dessous, les mots clés seront spécifiés.</p>
 							<hr />
 							<p className="text resume"><b>Compétences 1</b> / <b>Compétence 2</b></p>
 						</div>

@@ -116,7 +116,7 @@ body.dark{
 
 .section{
 	border-radius: 10px;
-	border-width: 2px;
+	border-width: 3px;
 	border-style: solid;
 	border-color: var(--jauge-color);
 	background-color: var(--body-color);
@@ -149,6 +149,21 @@ body.dark{
 	transition: opacity 0.5s ease;
 }
 
+::-webkit-scrollbar {
+	width: 4px;
+	height: 3px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--body-color);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--primary-color);
+	border-radius: 4px;
+	transform: translateX(-5px);
+}
 
 /* ===== Sidebar ===== */
 
@@ -161,8 +176,8 @@ body.dark{
 	background: var(--sidebar-color);
 	padding: 10px 14px;
 	border-width: 0px;
-	border-right-width: 2px;
-	border-color: var(--text-color);
+	border-right-width: 3px;
+	border-color: var(--sub-title-color);
 	border-style: solid;
 	font-size: 18px;
 	transition: var(--tran-05);
@@ -313,17 +328,24 @@ body.dark{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	vertical-align: middle;
 	border-radius: 50%;
 	border-color: var(--text-color);
 	border-style: solid;
 	border-width: 2px;
 	color: var(--sidebar-color);
 	font-size: 22px;
+	line-height: 1px;
 	transition: var(--tran-03);
+}
+
+.sidebar:not(.close) .headerNav .toggle {
+	padding-top: 2.2px;
 }
 
 .sidebar.close .headerNav .toggle{
 	transform: translateY(-50%);
+	padding-top: 1.5px;
 }
 
 body.dark .sidebar .headerNav .toggle{
@@ -465,15 +487,14 @@ body.dark .switch::before{
 
 /* ===== Contenu  ===== */
 
-.liste{
+.liste {
 	position: sticky;
 	top: 120px;
-	left: 110px;
-	width: 93%;
+	left: 120px;
+	width: calc(100% - 86px);
 	height: auto;
 	background: var(--sidebar-color);
 	padding: 10px 14px;
-	margin-top: 15px;
 	border-width: 1px;
 	border-radius: 6px;
 	border-color: var(--text-color);
@@ -561,7 +582,7 @@ body.dark .switch::before{
 	display: flex;
 	width: 100%;
 	align-items: top;
-	border-top: solid 1px var(--text-color);
+	border-top: solid 3px var(--jauge-color);
 }
 
 .comp hr{
@@ -570,7 +591,7 @@ body.dark .switch::before{
 
 #compDesc {
 	width: 100%;
-	border-left: solid 1px var(--text-color);
+	border-left: solid 3px var(--jauge-color);
 	padding: 10px;
 	padding-left: 30px;
 }
@@ -828,10 +849,14 @@ body.dark .containerproj input:checked ~ .checkmark{
 	width: 15%;
 	text-align: center;
 	flex-direction: column;
-	border-right-color: var(--text-color);
-	border-right-width: 1px;
+	border-right-color: var(--jauge-color);
+	border-right-width: 3px;
 	border-right-style: solid;
 	overflow-y: auto;
+}
+
+.projectSelectTitle {
+	border-bottom: solid 3px var(--jauge-color);
 }
 
 #projets{
