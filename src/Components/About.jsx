@@ -12,17 +12,23 @@ export default function About() {
         <div id="Apropos" className={`part ${inView ? 'visible' : ''} `} ref={ref}>
             <h2 className="titre"> {t('sidebar.SidAbout')} </h2>
             <div className="sous-ligne"></div>
-            <br />
-            <div className="photo">
-                <img src={`${process.env.PUBLIC_URL}/photo.jpg`} alt="" id="pdp" />
+            <div className="aPropos">
+                <div className="aProposText">
+                    <br />
+                    <h3 className="souligne"> {t('about.Title')} </h3>
+                    <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part1')}}></p>
+                    <br />
+                    <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part2')}}></p>
+                    <br />
+                    <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part3')}}></p>
+                    <br /> <br />
+                </div>
+                <div className="aProposImage">
+                    <div className="photo">
+                        <img src={`${process.env.PUBLIC_URL}/photo.png`} alt="" id="pdp" />
+                    </div>
+                </div>
             </div>
-            <h3 className="souligne"> {t('about.Title')} </h3>
-        <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part1')}}></p>
-        <br />
-        <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part2')}}></p>
-        <br />
-        <p className="texte" dangerouslySetInnerHTML={{ __html: t('about.Part3')}}></p>
-        <br /> <br />
       </div>
     );
 }

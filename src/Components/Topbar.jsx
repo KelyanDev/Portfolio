@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
-export default function Topbar() {
+export default function Topbar({ SidebarToggle }) {
+    const [isClicked, setIsClicked] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -15,11 +16,26 @@ export default function Topbar() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    function manageClick() {
+        setIsClicked(true);
+
+        const timeout = setTimeout(() => {
+            SidebarToggle();
+            setIsClicked(false);
+        }, 100);
+
+        return () => clearTimeout(timeout)
+    }
+
 
     return (
         <div className={`topbar ${scrolled ? "scrolled" : ""}`}>
-            
-            <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo" />
+            <div className="topbarLeft">
+                <i className={`bx bx-list-ul ${isClicked ? "clicked" : ""}`} onClick={manageClick}></i>
+            </div>
+            <div className="topbarRight">
+                <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo" />
+            </div>
         </div>
     );
 }

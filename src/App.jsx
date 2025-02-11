@@ -14,6 +14,7 @@ import Contact from './Components/Contact';
 
 
 export default function App() {
+  const [isSidebarClosed, setIsSidebarClosed] = useState(false);
   const [isBodyDark, setIsBodyDark] = useState(false);
 
   function toggleDarkMode() {
@@ -22,11 +23,15 @@ export default function App() {
     document.body.classList.toggle('dark', !isBodyDark)
   };
 
+  function toggleSidebar() {
+    setIsSidebarClosed(!isSidebarClosed);
+  };
+
   return (
     <>
     <div className='App'>
-      <Topbar />
-      <Sidebar isDarkMode={isBodyDark} DarkToggle={toggleDarkMode}/>
+      <Topbar SidebarToggle={toggleSidebar} />
+      <Sidebar isDarkMode={isBodyDark} DarkToggle={toggleDarkMode} isSidebarClosed={isSidebarClosed} SidebarToggle={toggleSidebar}/>
       <div className="liste">
         <About />
         <Formation />

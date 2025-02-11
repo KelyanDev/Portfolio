@@ -1,6 +1,5 @@
 import HeaderNav from "./NavBar/HeaderNav";
 import Switch from "./NavBar/ColorSwitch";
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 // Custom hook
@@ -18,14 +17,9 @@ import Contact from "./NavBar/NavLink/Contact";
 import LangSwitch from "./NavBar/NavLink/Language";
 
 
-export default function Sidebar({ isDarkMode, DarkToggle }) {
-    const [isSidebarClosed, setIsSidebarClosed] = useState(false);
+export default function Sidebar({ isDarkMode, DarkToggle, isSidebarClosed, SidebarToggle }) {
     const { i18n } = useTranslation();
     const activeSection = useActiveSection(['Apropos', 'Formation', 'Experience', 'Competence', 'Projet', 'Divers', 'CV', 'Contact']);
-
-    function toggleSidebar() {
-        setIsSidebarClosed(!isSidebarClosed);
-    };
 
     const changeLanguage = (event) => {
         const selectedLang = event.target.value;
@@ -34,7 +28,7 @@ export default function Sidebar({ isDarkMode, DarkToggle }) {
 
     return (
         <nav className={`sidebar ${isSidebarClosed ? '' : 'close'}`}>
-            <HeaderNav toggleSidebar={toggleSidebar} />
+            <HeaderNav toggleSidebar={SidebarToggle} />
             <div className="menu-line" />
             <div className="menu-bar">
                 <ul className="menu-lien">
