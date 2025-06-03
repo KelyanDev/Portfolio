@@ -34,6 +34,12 @@ export default function Topbar({ SidebarToggle }) {
                 <i className={`bx bx-list-ul ${isClicked ? "clicked" : ""}`} onClick={manageClick}></i>
             </div>
             <div className="topbarRight">
+                <div className="GButton">
+                    <a href="https://kelyandev.github.io/Portfolio/" className="down" target="_blank" rel="noopener noreferrer">
+                        <span className="button-txt"> Semestre 4 </span>
+                        <i className="bx bx-exit icon"></i>
+                    </a>
+                </div>
                 <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo" />
             </div>
         </div>

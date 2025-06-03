@@ -218,6 +218,59 @@ body.dark{
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
+.topbar .GButton{
+	height: 40px;
+	width: -moz-fit-content;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	align-self: center;
+	border-radius: 6px;
+	margin-right: 10px;
+	background: var(--current-color);
+	transition: var(--tran-05);
+}
+
+.topbar .GButton a {
+	height: 100%;
+	width: 100%;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 6px;
+	transition: var(--tran-04);
+}
+
+.topbar .GButton .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 30px;
+	font-size: 20px;
+}
+
+.topbar .GButton .button-txt {
+    margin-left: 8px;
+}
+
+.topbar .GButton a:hover{
+	background-color: var(--primary-color);
+}
+
+.topbar .GButton a .icon,
+.topbar .GButton a .button-txt{
+	color: var(--sidebar-color);
+	transition: var(--tran-03);
+}
+
+body.dark .topbar .GButton a:hover .icon,
+body.dark .topbar .GButton a:hover .button-txt{
+	color: var(--toggle-color);
+	transition: var(--tran-03);
+}
+
 /* ===== Sidebar ===== */
 
 .sidebar{
