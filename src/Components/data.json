@@ -8,8 +8,7 @@
             "<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'administrer des systèmes Windows et Linux, ainsi que leurs utilisateurs.</p>",
             "<p class='text'> En effet, j'ai eu l'occasion d'apprendre comment gérer les utilisateurs des systèmes Windows et Linux, en gérant leurs droits, les disques auxquels ils ont accès, et leurs quotas.",
                 " J'ai également appris à configurer Active Directory sur un serveur Windows, ainsi que différents services telles que RDS, MDT, WDS et la réplication d'AD, tout en mettant en place un serveur de fichiers.</p>",
-            "<p class='text'> J'ai également appris à mettre en place des solutions de sauvegardes grâce à l'outil Rsync et Cron.</p>",
-            "<hr />",
+            "<p class='text'> J'ai également appris à mettre en place des solutions de sauvegardes grâce à l'outil Rsync et Cron.</p> <hr />",
             "<p class='text resume'><b>Administration système</b> / <b>Windows</b> / <b>Linux</b> / <b>Active Directory</b> / <b>Rsync</b></p>",
             "<br />",
             "<h4>Virtualisation et conteneurisation de serveur</h4> <hr />",
@@ -17,7 +16,14 @@
             "<p class='text'> En effet, j'ai appris lors de certains TP à virtualiser des serveurs à l'aide de différents outils comme Virtualbox et VMWare ESXi. J'ai par la suite appris à configurer ces serveurs afin de réserver une partie des ressources",
                 " physiques de ces serveurs pour des VMs. Enfin, j'ai appris à utiliser le Datastore afin de trouver des VM, mais aussi à utiliser des outils de supervision et de sauvegarde à distance grâce à l'outil Veeam. </p>",
             "<p class='text'> J'ai également appris à conteneuriser des serveurs grâce à l'outil Docker sous Linux </p> <hr />",
-			"<p class='text resume'><b>Virtualisation</b> / <b>Conteneurisation</b> / <b>VirtualBox</b> / <b>VMWare</b> / <b>Docker</b></p>"
+			"<p class='text resume'><b>Virtualisation</b> / <b>Conteneurisation</b> / <b>VirtualBox</b> / <b>VMWare</b> / <b>Docker</b></p>",
+            "<br />",
+            "<h4>Gestion et supervision de sauvegardes</h4> <hr />",
+            "<p class='text'> Lors mon stage au sein de la société Abicom, j'ai eu l'opportunité d'apprendre le fonctionnement des outils Veeam et des backups. </p>",
+            "<p class='text'> En effet, j'ai appris le fonctionnement des différents outils Veeam (VBR, VBO, VCC, Veeam Management Agent, VSPC) ainsi que le fonctionnement des infrastructures de sauvegardes (NAS, SAN, DAS, Cloud, Hyperconvergence).",
+                " J'ai également appris, en traitant des problèmes de backup, à diagnostiquer des erreurs de sauvegardes, qu'elles soient liés à des lecteurs réseaux montés en iSCSI ou à des problèmes d'objets Microsoft 365.</p>",
+            "<p class='text'> Enfin, j'ai eu l'occasion d'effectuer un travail sur une procédure pour le traitement de la supervision des backups.</p> <hr />",
+			"<p class='text resume'><b>Veeam</b> / <b>Backup</b> / <b>Supervision</b> / <b>NAS</b> / <b>iSCSI</b></p>"
         ]
     },
     "Secu": {
@@ -27,11 +33,11 @@
             "<h4> Sécurité </h4> <hr />",
 			"<p class='text'> Lors de nombreux TD et TP, j'au eu l'occasion d'apprendre différentes notions de cybersécurité, que ce soit côté attaque ou défense.</p>",
             "<p class='text'> En effet, pour le côté défense, j'ai eu l'occasion d'apprendre comment configurer et sécuriser un service DNS primaire et secondaire, à configurer un transfert de zone,",
-                " et à les signer à l'aide de clés DNSSEC.",
+                " et à les signer à l'aide de clés DNSSEC. Par la suite, j'ai appris à configurer un firewall Stormshield dans différentes conditions et selon différentes attentes.",
 			"<p class='text'> J'ai également appris à sécuriser un point d'accès Wifi à l'aide d'un serveur Freeradius et de règles Iptables, afin de vérifier que seuls les utilisateurs authentifiés ",
-			    " avaient accès à internet. J'ai également appris à configurer un portail captif, toujours à l'aide de Freeradius.</p>",
+			    " avaient accès à internet. Ensuite, j'ai eu l'occasion d'apprendre à configurer un portail captif, toujours à l'aide de Freeradius.</p>",
 			"<p class='text'> Enfin, pour le côté attaque, j'ai appris des notions de pentesting, en m'entrainant sur diverses machines et dans diverses situations.</p> <hr />",
-			"<p class='compR text resume'> <b>Pentesting</b> / <b>Freeradius</b> / <b>DNS</b> / <b>DNSSEC</b> / <b>Portail captif</b> </p>"
+			"<p class='compR text resume'> <b>Pentesting</b> / <b>Freeradius</b> / <b>DNS</b> / <b>DNSSEC</b> / <b>Portail captif</b> / <b>Stormshield</b> / <b>Firewall</b> </p>"
         ]
     },
     "Progra": {
@@ -101,172 +107,6 @@
 			    "collège et de lycée.</p>",
 			"<p class='text'> Ainsi, au fil des années, j'ai acquis un niveau B2/C1 en anglais ainsi qu'un niveau B1 en espagnol</p> <hr />",
 			"<p class='compR text resume'> <b>Anglais - B2/C1</b> / <b>Espagnol - B1</b> </p>"
-        ]
-    },
-
-
-    
-
-
-
-
-
-
-    "CompanyNetwork": {
-        "description": [
-            "<h3 class='souligne'> Projet Intégratif (SAE24) </h3>",
-            "<div class='descript'>",
-            "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de mettre en place un réseau d'entreprise fonctionnel.</p>",
-            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était d'utiliser, par groupe de 4/5, l'ensemble des compétences que nous avions acquises au cours de notre première année de BUT afin de mettre en place un réseau d'entreprise. </p>",
-            "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était, dans un premier temps, d'installer et configurer <b>Debian</b> sur un mini-pc afin d'en faire un pc serveur. J'ai par la suite configurer notre <b>routeur</b> ainsi que notre <b>switch</b> afin de mettre en place un <b>routage inter-vlan</b> au sein de notre infrastructure.</p>",
-            "<p class='texte'> Par la suite, j'ai du configurer un service <b>DHCP</b> et un service de <b>Proxy</b> (Squid) sur notre serveur Debian, ainsi que <b>Apache</b>, <b>NodeJS</b> et <b>MongoDB</b> afin que notre application web de gestion de ticket puisse fonctionner (Voir projet SAE23). J'ai également configuré un système de <b>logs</b> pour ces services, qui sont récupérables via notre application</p>",
-            "<br />",
-            "<p class='texte'><b class='souligne'>Résultat:</b> Les applications web de ce projet sont disponibles sur mon Github (Dans TicketManagement et AutotechWeb)</p>",
-            "<p class='texte'>Pour ce projet, nous avons obtenus la note de 16,7/20 </p>",
-            "<br />",
-            "<p class='texte italique'>Images du projet: (La répartition des tâches, schéma de notre infrastructure, notre application)</p>",
-            "<div class='aligne'>",
-                "<img src='ScreenProjets/SAE24-2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='ScreenProjets/SAE24-1.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='ScreenProjets/SAE24-3.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-            "</div> <br> <br> </div>"
-        ]
-    },
-    "SAE22": {
-        "description": [
-            "<h3 class='souligne'> Simulation de signaux numériques (SAE22) </h3>",
-            "<div class='descript'>",
-            "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, afin de simuler des signaux numériques sous MATLAB</p>",
-            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de simuler et d'étudier des signaux de différents types. Par la suite, par groupe de 2, nous avons du présenter à l'oral ce projet. </p>",
-            "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était donc de découvrir le fonctionnement de l'environnement MATLAB afin de réaliser l'étude d'un signal temporel et d'un canal Radio.</p>",
-            "<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet le fonctionnement de <b>MATLAB</b>, afin de générer, d'échantillonner et d'afficher ces signaux ainsi que leurs spectres</p> <br />", 
-            "<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p>",
-            "<p class='texte'> Pour ce projet, nous avons obtenu la note de 14,5/20 </p> <br />",
-            "<p class='texte italique'>Images du projet: (le code pour un canal, le canal, le code d'un signal sinusoïdal)</p>",
-            "<div class='aligne'>",
-                "<img src='ScreenProjets/SAE22-1.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='ScreenProjets/SAE22-2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='ScreenProjets/SAE22-3.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-            "</div><br> <br> </div>"
-        ]
-    },
-    "RToDo": {
-        "description": [
-            "<h3 class='souligne'> Application React (Projet personnel)</h3>",
-            "<div class='descript'>",
-            "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet en autonomie dans un cadre personnel, afin de renforcer mes compétences en programmation.</p>",
-            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de mettre en place une application JavaScript en utilisant uniquement le framework React, ainsi que l'extension Javascript JSX. </p>",
-            "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était donc de découvrir le fonctionnement de ce framework afin de réaliser une ToDoList en full React. </p>",
-            "<p class='texte'> Ce projet est toujours en cours, et je compte améliorer mon application afin qu'elle fournisse des solutions plus intéressantes pour les utilisateurs </p>",
-            "<p class='texte'> Ainsi, je compte l'améliorer en ajoutant une solution de sauvegarde, en ajoutant un filtre et potentiellement un .exe pour lancer l'appli</p> <br />",
-            "<p class='texte italique'>Images du projet: (L'interface, une parti du code, le readme)</p>",
-            "<div class='aligne'>",
-                "<img src='ScreenProjets/React1.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='ScreenProjets/React3.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-                "<img src='ScreenProjets/React2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-            "</div> <br> <br> </div>"
-        ]
-    },
-    "Ticket": {
-        "description": [
-            "<h3 class='souligne'> Application de gestion de tickets de support DSI (SAE23)</h3>",
-			"<div class='descript'>",
-			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet au cours d'une SAE, afin de découvrir l'environnement NodeJS.</p>",
-			"<p class='texte'> <b class='souligne'>Objectif:</b> L'objectif de ce projet était de mettre en place un outil de support pour le service informatique de l'université, en créant un site web de gestion",
-				" de tickets de support. </p>",
-			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de coder la partie <b>backend</b> du site, afin qu'un utilisateur puisse créer un ticket,",
-				" suivre son avancement, ou encore le supprimer, mais aussi afin qu'un administrateur puisse les gérer, contacter l'utilisateur et les affecter à un technicien support. Par la suite, j'ai décider de recoder la partie <b>frontend</b> de l'application afin de l'améliorer. </p>",
-			"<p class='texte'> Ainsi, j'ai appris lors de la réalisation de ce projet comment réaliser une application web complète à l'aide d'un frontend <b>React</b>, d'un backend <b>NodeJS</b> ainsi que <b>Express</b> et d'une base de donnée <b>MongoDB</b>.</p> <br />",
-			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p>",
-			"<p class='texte'>Pour ce projet, j'ai obtenu la note de 18/20</p> <br />",
-			"<p class='texte italique'>Images du projet: (L'interface, le projet, la base de donnée)</p>",
-			"<div class='aligne'>",
-                "<img src='ScreenProjets/SAE23-1.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
-				"<img src='ScreenProjets/SAE23-2.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-				"<img src='ScreenProjets/SAE23-3.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
-			"</div> <br> <br> </div>"
-        ]
-    },
-    "Vacation": {
-        "description": [
-            "<h3 class='souligne'>Analyse de données (SAE15)</h3>",
-			"<div class='descript'>",
-			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet au cours d'une SAE, afin d'apprendre à gérer des données depuis Python.</p>",
-			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était d'exporter l'emploi du temps depuis l'ENT afin d'en extraire certaines données. </p>",
-			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de <b>traiter</b> les <b>informations</b> de l'emploi du temps afin d'aider un enseignant à préparer ses vacances. </p>",
-			"<p class='texte'> J'ai donc utilisé la <b>librairie</b> Python <b>Pandas</b> afin d'extraire depuis l'emploi du temps",
-				" les données qui m'intéressaient, afin de calculer le nombre de jours pendant lesquelles l'enseignant était en vacances. </p>",
-			"<p class='texte'> Ainsi, Il m'a fallu <b>analyser</b> les données de l'emploi du temps afin de trouver les informations correspondantes. </p>",
-			"<p class='texte'> Par la suite, j'ai codé un <b>interface</b> pour faciliter l'utilisation du code. </p> <br />",
-			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact</p>",
-			"<p class='texte'> Pour ce projet, j'ai obtenu la note de 18/20</p> <br>",
-			"<p class='texte italique'>Images du projet: (Le projet, le code, l'interface)</p>",
-			"<div class='aligne'>",
-				"<img src='ScreenProjets/Capture-0-SAE15.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
-				"<img src='ScreenProjets/capture-1-SAE15.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-				"<img src='ScreenProjets/Capture-2-SAE15.PNG' class='screens grand' onclick='window.open(this.src)'' alt=''>",
-			"</div> <br> <br> </div>"
-        ]
-    },
-    "Portfolio": {
-        "description": [
-            "<h3 class='souligne'> Création et maintien du Portfolio (SAE14, SAE25)</h3>",
-			"<div class='descript'>",
-			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet à l'occasion d'une SAE, mais je le fais aussi par passion.</p>",
-			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de nous aider à réaliser tous les éléments essentiels à notre insertion professionnelle. </p>",
-			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était, à terme, de réaliser le portfolio que vous consultez actuellement </p>",
-			"<p class='texte'> Ainsi, nous avons, dans un premier temps, réalisé notre <b>C.V</b>, puis nous avons par la suite créé notre <b>Portfolio</b> </p>",
-			"<p class='texte'> Ainsi, j'ai donc pu fournir ce portfolio <b>complet</b>, avec un <b>design réfléchi</b>, permettant l'utilisation d'une palette de couleurs <b>moins fatigante</b> pour les yeux ainsi que l'utilisation de <b>deux langues distinctes</b>,",
-				" et <b>régulièrement mis à jour</b>. </p> <br>",
-			"<p class='texte'><b class='souligne'>Résultat:</b> Lors de mon premier semestre, j'ai obtenu la note de 14/20 pour ce projet.</p>",
-            "<p class='texte'> Lors de mon deuxième semestre, j'ai obtenu la note de 15/20 pour ce projet.</p> <br /> <br /> <br />",
-			"<div class='GButton aligne'>",
-				"<a class='down' href='https://github.com/KelyanDev/KelyanDev.github.io' target='_blank' rel='noopener'>",
-					"<i class='bx bx-folder icon'></i>",
-					"<span class='down'> Répertoire Github</span> </a>",
-			"</div></div>"
-        ]
-    },
-    "FluxBiz": {
-        "description": [
-            "<h3 class='souligne'>Développer des applications communicantes (SAE32)</h3>",
-			"<div class='descript'>",
-			"<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet lors d'une SAE, mais je le réalise également en autonomie afin de l'améliorer.</p>",
-			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de développer, par groupe ou seul, une <b>application de chat-stream direct</b> pour le personnel de l'entreprise. </p>",
-			"<p class='texte'> Cette application devait absolument être codée en <b>Java</b>. En revanche, nous pouvions choisir nous même les autres technologies. Ainsi, pour le backend de notre application, ",
-				" nous avons décidé d'opter pour Firebase et l'ensemble de ses outils. </p>",
-			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission a donc consisté à coder cette application de A à Z, en passant par de multiples fonctionnalités, telles que l'<b>Authentification</b>,",
-				" <b>l'envoi de messages</b>, le fait de pouvoir <b>liker</b> ces messages, et que tout les utilisateurs puissent consulter ces messages. De plus, les messages devaient être triés par ordre d'importance </p>",
-            "<p class='texte'> Ainsi, lors de ce projet, je me suis rendu compte que les fonctionnalités attendues ressemblait aux fonctionnalités de l'application de microblogging appelée X,",
-                " mais plus connue sous le nom de <b>Twitter</b>. Ainsi, j'ai décidé d'opter pour une application ressemblant le plus possible à cette application. Aujourd'hui, ce projet est devenu à mes yeux un projet à plein temps,",
-                " que je continue à développer et à améliorer afin de rajouter des fonctionnalités, et corriger des bugs. Aujourd'hui, nous sommes à la <b>version 2.0</b> de mon application. </p> <br/>",
-			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est disponible sur mon Github, que vous pouvez trouver dans la section 'Contact'. Le répertoire du projet est également accessible via le bouton située en dessous. </p>",
-			"<p class='texte'>Pour ce projet, j'ai obtenu la note de 20/20</p> <br />",
-			"<div class='GButton aligne'>",
-				"<a class='down' href='https://github.com/KelyanDev/FluxBiz' target='_blank' rel='noopener'>",
-					"<i class='bx bx-folder icon'></i>",
-					"<span class='down'> Répertoire Github</span> </a>",
-			"</div> <br><br> </div>"
-        ]
-    },
-    "Hatsu": {
-        "description": [
-            "<h3 class='souligne'>Création d'une console de jeu (Année de Terminale)</h3>",
-			"<div class='descript'>",
-			"<p class='texte'><b class='souligne'>Contexte:</b> Ce projet est mon projet de fin d'année de Terminale, réalisé afin d'utiliser les compétences que nous avions acquises.</p>",
-			"<p class='texte'><b class='souligne'>Objectif:</b> L'objectif était de créer une <b>console de jeux</b>, similaire à un Steamdeck ou une Nintendo Switch, avec des jeux dessus. </p>",
-			"<p class='texte'><b class='souligne'>Mission:</b> Ma mission était de coder l'un de ces jeux, j'ai donc décidé de <b>coder</b> un <b>jeu platformer</b> similaire à un Mario. </p>",
-			"<p class='texte'>Il a fallu coder le jeu de A à Z, que ce soit les mouvements, les collisions ou la génération des niveaux. </p>",
-			"<p class='texte'> J'ai ensuite pu intégrer les designs créés par une camarade, et le jeu était fini dans les temps donnés. </p> <br />",
-			"<p class='texte'><b class='souligne'>Résultat:</b> Ce projet est téléchargeable via mon GitHub, depuis la section contact. </p>",
-			"<p class='texte'>Pour ce projet, nous avions obtenu la note de 17/20. </p> <br />",
-			"<p class='texte italique'>Images du projet: (La console, le menu du jeu et le jeu)</p>",
-			"<div class='aligne'>",
-				"<img src='ScreenProjets/frontview.jpg' class='screens grand' onclick='window.open(this.src)' alt=''>",
-				"<img src='ScreenProjets/Menu.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-				"<img src='ScreenProjets/Jeu.PNG' class='screens grand' onclick='window.open(this.src)' alt=''>",
-			"</div> <br>",
-			"</div>"
         ]
     }
 }

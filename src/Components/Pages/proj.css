@@ -1,0 +1,199 @@
+/* ===== Projects ===== */
+
+.project {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.project-top {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.project-full {
+	display: flex;
+	flex-direction: row;
+	padding-left: 80px;
+	padding-right: 120px;
+    justify-content: space-between;
+}
+
+/* === Project context === */
+
+.project-context {
+	display: flex;
+	flex-direction: column;
+    width: 82%;
+}
+
+.project-title h1 {
+	color: var(--primary-color);
+	width: fit-content;
+}
+
+.project-context .descript {
+    display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.project-context .descript b.souligne {
+    color: var(--primary-color);
+}
+
+.project-context .texte {
+    color: var(--text-color);
+    font-size: 19px;
+}
+
+.screens{
+	margin: 10px;
+	height: auto;
+	width: 25%;
+	border-radius: 4px;
+}
+
+.descript .aligne img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.descript .aligne {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descript .GButton{
+	height: 40px;
+	width: -moz-fit-content;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	border-radius: 6px;
+	margin-top: 10px;
+	background: var(--back-p-color);
+	transition: var(--tran-05);
+}
+
+.descript .GButton .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 30px;
+	font-size: 20px;
+}
+
+.descript .GButton .icon,
+.descript .GButton .down{
+	color: var(--text-color);
+	transition: var(--tran-03);
+}
+
+.descript .GButton a{
+	height: 100%;
+	width: 100%;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 6px;
+	transition: var(--tran-04);
+}
+
+.descript .GButton a:hover{
+	background-color: var(--primary-color);
+}
+
+.descript .GButton a:hover .icon,
+.descript .GButton a:hover .down{
+	color: var(--sidebar-color);
+	transition: var(--tran-03);
+}
+
+
+/* === Project informations === */
+
+.project-infos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    min-width: 180px;
+    width: 15%;
+    margin-right: 16px;
+}
+
+.project-infos .GButton{
+	height: 40px;
+	width: -moz-fit-content;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	border-radius: 6px;
+	margin-top: 10px;
+	background: var(--current-color);
+	transition: var(--tran-05);
+}
+
+.project-infos .GButton a {
+	height: 100%;
+	width: 100%;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 6px;
+	transition: var(--tran-04);
+}
+
+.project-infos .GButton .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 30px;
+	font-size: 20px;
+}
+
+.project-infos .GButton .button-txt {
+    margin-left: 8px;
+}
+
+.project-infos .GButton a:hover{
+	background-color: var(--primary-color);
+}
+
+.project-infos .GButton a .icon,
+.project-infos .GButton a .button-txt{
+	color: var(--sidebar-color);
+	transition: var(--tran-03);
+}
+
+body.dark .project-infos .GButton a:hover .icon,
+body.dark .project-infos .GButton a:hover .button-txt{
+	color: var(--toggle-color);
+	transition: var(--tran-03);
+}
+
+
+.project-infos .project-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 20px;
+}
+
+.project-table th,
+.project-table td {
+    border: 1px solid var(--text-color);
+    padding: 0.5rem 0.8rem;
+    text-align: left;
+}
+
+.project-table th {
+    background-color: #f3f3f3;
+}

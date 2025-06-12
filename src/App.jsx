@@ -29,20 +29,20 @@ export default function App() {
 
   return (
     <>
-    <div className='App'>
-      <Topbar SidebarToggle={toggleSidebar} />
-      <Sidebar isDarkMode={isBodyDark} DarkToggle={toggleDarkMode} isSidebarClosed={isSidebarClosed} SidebarToggle={toggleSidebar}/>
-      <div className="liste">
-        <About />
-        <Formation />
-        <Exp />
-        <Skills />
-        <Projects />
-        <Other />
-        <CV />
-        <Contact />
+      <div className='App'>
+        <Topbar SidebarToggle={toggleSidebar} />
+        <Sidebar isDarkMode={isBodyDark} DarkToggle={toggleDarkMode} isSidebarClosed={isSidebarClosed} SidebarToggle={toggleSidebar}/>
+        <div className="liste">
+          <About />
+          <Formation />
+          <Exp />
+          <Skills />
+          <Projects />
+          <Other />
+          <CV />
+          <Contact />
+        </div>
       </div>
-    </div>
     </>
   );
 }

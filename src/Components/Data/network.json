@@ -1,0 +1,33 @@
+{ "nodes": [
+    { "id": "CompanyNetwork", "desc": "Configuration d'un petit réseau d'entreprise", "x": 755, "y": 225 },
+    { "id": "FluxBiz", "desc": "Application Android de microblogging (Java)", "x": 420, "y": 200 },
+    { "id": "SAE22", "desc": "Simulation de signaux électriques (MatLab)", "x": 700, "y": 330 },
+    { "id": "RToDo", "desc": "Application Web de type ToDoList (React)", "x": 1040, "y": 90 },
+    { "id": "Ticket", "desc": "Application de Gestion de tickets de support (JavaScript)", "x": 580, "y": 110 },
+    { "id": "Vacation", "desc": "Script d'analyse de données d'un emploi du temps (Python, Pandas)", "x": 1210, "y": 270 },
+    { "id": "Portfolio", "desc": "Portfolio (React)", "x": 799, "y": 123 },
+    { "id": "Hatsu", "desc": "Console de jeu de type Steamdeck (Python, hardware)", "x": 945, "y": 270 }
+],
+    
+"links": [
+        { "source": "CompanyNetwork", "target": "SAE22" },
+        { "source": "CompanyNetwork", "target": "FluxBiz" },
+        { "source": "CompanyNetwork", "target": "RToDo" },
+        { "source": "CompanyNetwork", "target": "Ticket" },
+        {"source": "CompanyNetwork", "target": "Hatsu" },
+        { "source": "CompanyNetwork", "target": "Portfolio" },
+
+        { "source": "FluxBiz", "target": "Ticket" },
+
+        { "source": "SAE22", "target": "Hatsu" },
+
+        { "source": "RToDo", "target": "Vacation" },
+
+        { "source": "Ticket", "target": "Portfolio" },
+
+        { "source": "Portfolio", "target": "RToDo" },
+
+        { "source": "Hatsu", "target": "RToDo" },
+        { "source": "Hatsu", "target": "Vacation" }
+    ]
+}

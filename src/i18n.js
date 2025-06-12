@@ -39,11 +39,11 @@ const resources = {
                 /* === Professional Experience === */
                 'Title': 'Professional Experience',
                 // Internship
-                'Exp-3-Tit': 'User support integration internship',
-                'Exp-3-P1': "Starting in early April of 2025, I'll work as an intern in the company named 'Abicom'.",
-                'Exp-3-P2': "",
-                'Exp-3-P3': "",
-                'Exp-3-P4': "",
+                'Exp-3-Tit': "Integration internship in User Support",
+                'Exp-3-P1': "From April 2025 to June 2025, I joined Abicom's service center to complete an internship.",
+                'Exp-3-P2': "My role during these months was to provide technical support for users, aiming to help and assist clients by resolving their technical issues and handling their service requests.",
+                'Exp-3-P3': "I also had the opportunity to work on monitoring client's backups, which helped me improve my skills with Veeam tools and data backup management.",
+                'Exp-3-P4': "This experience greatly enhanced both my technical and interpersonal skills",
                 // Support
                 'Exp-2-Tit': 'Support for first-year students',
                 'Exp-2-P1': "From September 2024 to December 2024, I had the opportunity to provide support in telecommunications for first-year students.",
@@ -85,13 +85,14 @@ const resources = {
             projects: {
                 /* === Projects === */
                 'Title': 'Projects',
-                'Integration': 'Integrative Project (SAE24)',
-                'FluxBiz': 'Coding communicating applications(SAE32)',
-                'Numeric': 'Numeric Signal Simulation (SAE22)',
-                'Re-App': 'React App',
-                'Ticket': 'Ticket Management Application (SAE23)',
-                'Data': 'Data analysis (SAE15)',
-                'Game': 'Gaming console (12th Grade)'
+                'CompanyNetwork': 'Integrative Project',
+                'FluxBiz': 'FluxBiz',
+                'SAE22': 'Signal Simulation',
+                'RToDo': 'React App',
+                'Ticket': 'TicketManagement',
+                'Vacation': 'Data analysis',
+                'Portfolio': 'Portfolio',
+                'Hatsu': 'Gaming console'
             },
             miscellaneous: {
                 /* === Miscellaneous === */
@@ -135,7 +136,7 @@ const resources = {
                 Part2: `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
                     j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
                     mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année. Je suis quelqu'un de <b>passionné</b>, d'<b>autonome</b> et de <b>persévérant</b>.`,
-                Part3: `Je réaliserai un stage en tant que support utilisateur dans l'entreprise <b>Abicom</b>. 
+                Part3: `Entre les mois d'Avril et de Juin 2025, j'ai eu l'occasion de réaliser un stage au sein du centre de service de l'entreprise <b>Abicom</b>. 
                     Actuellement, je souhaite continuer à suivre ma formation en tant qu'alternant en 3ème année dès Septembre 2025.`
             },
             training: {
@@ -153,10 +154,10 @@ const resources = {
                 'Title': 'Experience professionnelle',
                 // Stage
                 'Exp-3-Tit': "Stage d'intégration au service Support Utilisateur",
-                'Exp-3-P1': "A partir de début Avril 2025, je réaliserai un stage au sein de l'entreprise Abicom, et ce pour une durée de 2 mois.",
-                'Exp-3-P2': "",
-                'Exp-3-P3': "",
-                'Exp-3-P4': "",
+                'Exp-3-P1': "D'Avril 2025 jusqu'à Juin 2025, j'ai eu l'occasion d'intégrer le centre de services de l'entreprise Abicom, afin d'y réaliser un stage.",
+                'Exp-3-P2': "Ma mission lors de ce stage était de réaliser le support des utilisateurs, dont l'objectif était d'aider et d'accompagner les clients, que ce soit en résolvant des incidents techniques, mais également en répondant à leurs demandes de services",
+                'Exp-3-P3': "Cependant, j'ai également eu l'occasion de réaliser un travail approfondi sur la supervision des sauvegardes des clients, ce qui m'a permis par la suite de monter en compétences sur les outils Veeam et le domaine des sauvegardes de données.",
+                'Exp-3-P4': "Ainsi, cette expérience m'a permi de grandement développer mes compétences techniques mais également mes compétences humaines",
                 // Soutien
                 'Exp-2-Tit': 'Soutien élèves de première année',
                 'Exp-2-P1': "De Septembre 2024 jusqu'à Décembre 2024, j'ai eu l'occasion de réaliser du soutien en télécommunications pour les élèves de premières années, pour une durée totale d'une dizaine d'heures.",
@@ -198,13 +199,14 @@ const resources = {
             projects: {
                 /* === Projects === */
                 'Title': 'Projets',
-                'Integration': 'Projet Intégratif (SAE24)',
-                'FluxBiz': "Développer des applications communicantes (SAE32)",
-                'Numeric': 'Simulation de signaux numériques (SAE22)',
-                'Re-App': 'Application React',
-                'Ticket': 'Application de gestion de tickets (SAE23)',
-                'Data': 'Analyse de données (SAE15)',
-                'Game': 'Console de Jeu (Terminale)'
+                'CompanyNetwork': 'Projet Intégratif',
+                'FluxBiz': "FluxBiz",
+                'SAE22': 'Simulation de signaux',
+                'RToDo': 'Application React',
+                'Ticket': 'TicketManagement',
+                'Vacation': 'Analyse de données',
+                'Portfolio': 'Portfolio',
+                'Hatsu': 'Console de Jeu'
             },
             miscellaneous: {
                 /* === Miscellaneous === */
