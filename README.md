@@ -115,7 +115,7 @@ See the [open issues](https://github.com/KelyanDev/Portfolio/issues) for a full 
 <!-- CONTACT -->
 ## Contact
 
-My Portfolio - [Click here](https://kelyandev.github.io/)
+My Portfolio - [Click here](https://kelyandev.github.io/Portfolio)
 
 Project Link: [https://github.com/KelyanDev/Portfolio](https://github.com/KelyanDev/Portfolio)
 
