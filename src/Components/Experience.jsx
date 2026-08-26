@@ -14,6 +14,18 @@ export default function Exp() {
             <br />
 
             <div className="section exp">
+                <div>
+                    <h4>{t('experience.Exp-4-Tit')}</h4>
+                    <p className="text"> {t('experience.Exp-4-P1')}</p>
+                    <p className="text"> {t('experience.Exp-4-P2')} {t('experience.Exp-4-P3')}</p>
+                    <p className="text"> {t('experience.Exp-4-P4')}</p>
+                </div>
+                <div className="exp-im">
+                    <img src={`${process.env.PUBLIC_URL}/Divers/abicom.png`} className="screens" id="calou" alt="" />
+                </div>
+            </div>
+
+            <div className="section exp">
                 <div className="exp-im">
                     <img src={`${process.env.PUBLIC_URL}/Divers/abicom.png`} className="screens" id="calou" alt="" />
                 </div>

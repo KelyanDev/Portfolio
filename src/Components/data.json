@@ -1,7 +1,7 @@
 {
     "Syst": {
         "circleStyle": "calc((502 * (100 - 90)) / 100)",
-        "circleText": "90%",
+        "circleText": "95%",
         "description": [
             "<h4>Administration de systèmes et d'utilisateurs</h4>",
             "<hr />",
@@ -18,17 +18,17 @@
             "<p class='text'> J'ai également appris à conteneuriser des serveurs grâce à l'outil Docker sous Linux </p> <hr />",
 			"<p class='text resume'><b>Virtualisation</b> / <b>Conteneurisation</b> / <b>VirtualBox</b> / <b>VMWare</b> / <b>Docker</b></p>",
             "<br />",
-            "<h4>Gestion et supervision de sauvegardes</h4> <hr />",
-            "<p class='text'> Lors mon stage au sein de la société Abicom, j'ai eu l'opportunité d'apprendre le fonctionnement des outils Veeam et des backups. </p>",
-            "<p class='text'> En effet, j'ai appris le fonctionnement des différents outils Veeam (VBR, VBO, VCC, Veeam Management Agent, VSPC) ainsi que le fonctionnement des infrastructures de sauvegardes (NAS, SAN, DAS, Cloud, Hyperconvergence).",
-                " J'ai également appris, en traitant des problèmes de backup, à diagnostiquer des erreurs de sauvegardes, qu'elles soient liés à des lecteurs réseaux montés en iSCSI ou à des problèmes d'objets Microsoft 365.</p>",
+            "<h4>Stratégies et solutions de sauvegarde</h4> <hr />",
+            "<p class='text'> Mon expérience au sein de la société Abicom m'a donné l'opportunité de réaliser une étude approfondie sur les stratégies de sauvegarde en entreprise. </p>",
+            "<p class='text'> En effet, j'ai eu l'occasion de découvrir le fonctionnement des infrastructures de sauvegardes (en passant des solutions de sauvegarde aux supports de stockage de données) et des stratégies qui y sont liés, avec la règle du 3-2-1-1-0.",
+                " J'ai ainsi eu l'occasion de réaliser diverses missions sur des infrastructures Veeam, ainsi que sur des solutions plus spécifiques comme Proxmox Backup Server.</p>",
             "<p class='text'> Enfin, j'ai eu l'occasion d'effectuer un travail sur une procédure pour le traitement de la supervision des backups.</p> <hr />",
-			"<p class='text resume'><b>Veeam</b> / <b>Backup</b> / <b>Supervision</b> / <b>NAS</b> / <b>iSCSI</b></p>"
+			"<p class='text resume'><b>Veeam</b> / <b>Support de stockage</b> / <b>Supervision</b> / <b>Stratégie</b> / <b>Sauvegarde</b> / <b>PBS</b> </p>"
         ]
     },
     "Secu": {
-        "circleStyle": "calc((502 * (100 - 80)) / 100)",
-        "circleText": "80%",
+        "circleStyle": "calc((502 * (100 - 75)) / 100)",
+        "circleText": "75%",
         "description": [
             "<h4> Sécurité </h4> <hr />",
 			"<p class='text'> Lors de nombreux TD et TP, j'au eu l'occasion d'apprendre différentes notions de cybersécurité, que ce soit côté attaque ou défense.</p>",
@@ -36,7 +36,7 @@
                 " et à les signer à l'aide de clés DNSSEC. Par la suite, j'ai appris à configurer un firewall Stormshield dans différentes conditions et selon différentes attentes.",
 			"<p class='text'> J'ai également appris à sécuriser un point d'accès Wifi à l'aide d'un serveur Freeradius et de règles Iptables, afin de vérifier que seuls les utilisateurs authentifiés ",
 			    " avaient accès à internet. Ensuite, j'ai eu l'occasion d'apprendre à configurer un portail captif, toujours à l'aide de Freeradius.</p>",
-			"<p class='text'> Enfin, pour le côté attaque, j'ai appris des notions de pentesting, en m'entrainant sur diverses machines et dans diverses situations.</p> <hr />",
+			"<p class='text'> Enfin, pour le côté attaque, j'ai appris des notions de pentesting, en m'entrainant sur diverses machines et dans diverses situations. J'ai également eu l'occasion de réaliser du forensic sur des machines diverses</p> <hr />",
 			"<p class='compR text resume'> <b>Pentesting</b> / <b>Freeradius</b> / <b>DNS</b> / <b>DNSSEC</b> / <b>Portail captif</b> / <b>Stormshield</b> / <b>Firewall</b> </p>"
         ]
     },
@@ -64,7 +64,7 @@
         "circleText": "85%",
         "description": [
             "<h4>Configurer un réseau et ses équipements</h4> <hr />",
-            "<p class='text'> Lors de nombreux TP, j'ai appris à mettre en place et configurer différents équipements réseaux.</p>",
+            "<p class='text'> Lors de nombreux TP, j'ai appris à mettre en place et configurer différents équipements et services réseaux.</p>",
             "<p class='text'> En effet, j'ai eu l'occasion de configurer certains équipements réseaux tels que des routeurs, des commutateurs, des bornes wifi ou de simples ordinateurs,",
                 " mais aussi différents serveurs de service comme DHCP, FTP, Web ou autres, dans un premier temps sur Cisco PacketTracer, puis ensuite sur de vrais équipements.",
                 " J'ai également eu l'occasion de découvrir le fonctionnement des routages OSPF et MPLS lors de différents TP, routages que j'ai par la suite réalisé sur le logiciel GNS3.</p>",
@@ -86,8 +86,8 @@
         ]
     },
     "Tél": {
-        "circleStyle": "calc((502 * (100 - 75)) / 100)",
-        "circleText": "75%",
+        "circleStyle": "calc((502 * (100 - 80)) / 100)",
+        "circleText": "80%",
         "description": [
             "<h4>Téléphonie</h4> <hr />",
 			"<p class='text'> Lors de nombreux TD et TP, j'ai eu l'occasion d'apprendre le fonctionnement ainsi que la mise en place d'un service téléphonique.</p>",
@@ -98,13 +98,14 @@
         ]
     },
     "Lang": {
-        "circleStyle": "calc((502 * (100 - 0)) / 100)",
+        "circleStyle": "calc((502 * (100 - 66)) / 100)",
         "circleText": "--",
         "description": [
             "<h4> Langues </h4> <hr />",
 			"<p class='text'> Lors de mes différentes années d'études, j'ai eu l'occasion d'apprendre certaines langues</p>",
 			"<p class='text'> En effet, j'ai appris l'anglais en regardant des vidéos ou en jouant à des jeux, et j'ai appris l'espagnol lors de mes années de ",
 			    "collège et de lycée.</p>",
+            "<p class='text'> J'ai par ailleurs obtenu le score de 915 au TOEIC.</p>",
 			"<p class='text'> Ainsi, au fil des années, j'ai acquis un niveau B2/C1 en anglais ainsi qu'un niveau B1 en espagnol</p> <hr />",
 			"<p class='compR text resume'> <b>Anglais - B2/C1</b> / <b>Espagnol - B1</b> </p>"
         ]

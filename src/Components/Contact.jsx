@@ -68,7 +68,7 @@ function Footer() {
 
     return (
         <footer className="copyrights">
-            <p> © 2024 TOURNEBIZE Kélyan, {t('copyright')}</p>
+            <p> © 2026 TOURNEBIZE Kélyan, {t('copyright')}</p>
         </footer>
     );
 }

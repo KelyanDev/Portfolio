@@ -131,28 +131,33 @@ const resources = {
                 },
             about: {
                 /* === About me === */
-                Title: 'Etudiant en deuxième année de BUT Réseaux et Télécommunications',
-                Part1: "Je m'appelle <b>Tournebize Kélyan</b>, j'ai 19 ans, et je suis étudiant en deuxième année de BUT en <b>Réseaux et Télécommunications</b>, spécialité <b>Cybersécuritée</b>.",
-                Part2: `Après avoir passé un baccalauréat Général avec pour spécialités Mathématiques et Numérique et Sciences Informatiques (NSI),
-                    j'ai décidé d'intégrer une formation de BUT en Réseaux et Télécommunications afin de pouvoir suivre le parcours <b>Cybersécurité</b> proposé dès la deuxième année,
-                    mais aussi pour la possibilité de faire de l'<b>alternance</b>, en deuxième et en troisième année. Je suis quelqu'un de <b>passionné</b>, d'<b>autonome</b> et de <b>persévérant</b>.`,
-                Part3: `Entre les mois d'Avril et de Juin 2025, j'ai eu l'occasion de réaliser un stage au sein du centre de service de l'entreprise <b>Abicom</b>. 
-                    Actuellement, je souhaite continuer à suivre ma formation en tant qu'alternant en 3ème année dès Septembre 2025.`
+                Title: 'Etudiant en troisième année de BUT Réseaux et Télécommunications - Parcours Cybersécurité',
+                Part1: "Je m'appelle <b>Tournebize Kélyan</b>, j'ai 20 ans, et je suis étudiant en troisième année de BUT en <b>Réseaux et Télécommunications</b>, spécialité <b>Cybersécuritée</b>.",
+                Part2: `Suite à mes deux premières années au sein du BUT Réseaux et Télécommunications de Clermont-Ferrand, j'ai décidé de poursuivre la formation en intégrant la troisième année,
+                    toujours avec la spécialité <b>Cybersécuritée</b>. Je suis quelqu'un de <b>passionné</b>, d'<b>autonome</b> et de <b>persévérant</b>.`,
+                Part3: `Actuellement, je suis en alternance au sein du centre de service de l'entreprise <b>Abicom</b> suite au stage que j'y avais précédemment réalisé. 
+                    A la rentrée de Septembre 2026, j'intègre l'école d'ingénieur de l'IMT Mines d'Alès en tant qu'étudiant de première année d'INFRES.`
             },
             training: {
                 /* === Training course === */
                 'Title': "Formation",
-                'Train-4-Tit': 'Février 2025',
-                'Train-4-Desc': 'Validation troisième semestre de BUT Réseaux et Télécommunications',
-                'Train-3-Desc': 'Deuxième année de BUT Réseaux et Télécommunications',
-                'Train-2-Desc': "Validation première année de BUT Réseaux et Télécommunications",
+                'Train-4-Tit': 'Février 2026',
+                'Train-4-Desc': 'Validation cinquième semestre de BUT Réseaux et Télécommunications',
+                'Train-3-Desc': 'Troisième année de BUT Réseaux et Télécommunications',
+                'Train-2-Desc': "Validation première et deuxième année de BUT Réseaux et Télécommunications",
                 'Train-1-Tit': "Juin 2023",
                 'Train-1-Desc': "Obtention d'un Baccalauréat Général spécialités Maths et NSI, mention assez bien"
             },
             experience: {
                 /* === Professional Experience === */
                 'Title': 'Experience professionnelle',
-                // Stage
+                // Alternance - Abicom
+                'Exp-4-Tit': "Technicien support utilisateur - Alternance",
+                'Exp-4-P1': "Suite à mon stage au sein du centre de service de l'entreprise Abicom, j'ai eu l'occasion de l'intégrer, a partir de Juillet 2025, en tant que technicien support en alternance.",
+                'Exp-4-P2': "Ma mission consiste à réaliser le support des utilisateurs, en résolvant les incidents techniques qu'ils rencontrent, mais également en répondant à leurs demandes de services.",
+                'Exp-4-P3': "De plus, suite au travail approfondi que j'avais réalisé lors de mon stage sur la supervision des sauvegardes, ma mission consiste également à assurer le bon fonctionnement des sauvegardes des clients et des infrastructures Veeam, tout en participant à l'amélioration du processus utilisé pour la supervision.",
+                'Exp-4-P4': "Ainsi, cette expérience me permet de continuer à développer mes compétences techniques ainsi que mes compétences humaines",
+                // Stage - Abicom
                 'Exp-3-Tit': "Stage d'intégration au service Support Utilisateur",
                 'Exp-3-P1': "D'Avril 2025 jusqu'à Juin 2025, j'ai eu l'occasion d'intégrer le centre de services de l'entreprise Abicom, afin d'y réaliser un stage.",
                 'Exp-3-P2': "Ma mission lors de ce stage était de réaliser le support des utilisateurs, dont l'objectif était d'aider et d'accompagner les clients, que ce soit en résolvant des incidents techniques, mais également en répondant à leurs demandes de services",
@@ -206,7 +211,10 @@ const resources = {
                 'Ticket': 'TicketManagement',
                 'Vacation': 'Analyse de données',
                 'Portfolio': 'Portfolio',
-                'Hatsu': 'Console de Jeu'
+                'Hatsu': 'Console de Jeu',
+                'Homelab': 'Homelab',
+                'SAE53': 'Attaque',
+                'Hint': "Chaque noeud représente un projet que j'ai réalisé. Passez votre souris dessus pour en savoir plus!"
             },
             miscellaneous: {
                 /* === Miscellaneous === */

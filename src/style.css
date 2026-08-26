@@ -18,6 +18,9 @@
 	--body-color: #E3F1F9; 			/* Curious Blue 100 */
 	--primary-color-light: #f2f8fd; 	/* Curious Blue 50 */
 
+	--personal-color: #89A1EA; 			/* Greyish Blue */
+	--school-color: #40B3AF; 			/* Greyish Blue */
+
 	/* ===== Couleurs Secondaires ===== */
 	--sidebar-color: #FFF;
 	--toggle-color: #DDD;
@@ -934,6 +937,14 @@ svg{
 	stroke: var(--current-color);
 	stroke-width: 1;
 }
+
+.node.personal {
+	background-color: var(--personal-color);
+}
+
+.node.school {
+	background-color: var(--school-color);
+}
   
 .node {
 	position: absolute;
@@ -948,6 +959,26 @@ svg{
 	font-weight: bold;
 	transition: var(--tran-01);
 	transform: translate(-50%, -50%);
+}
+
+.node.hovered.personal {
+	background-color: var(--body-color);
+	border: 4px solid var(--personal-color);
+}
+
+.node.hovered.school {
+	background-color: var(--body-color);
+	border: 4px solid var(--school-color);
+}
+
+.school .node-title,
+.school .node-button {
+	color: var(--school-color);
+}
+
+.personal .node-title,
+.personal .node-button {
+	color: var(--personal-color);
 }
   
 .node.hovered {

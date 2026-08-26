@@ -1,12 +1,13 @@
 { "nodes": [
-    { "id": "CompanyNetwork", "desc": "Configuration d'un petit réseau d'entreprise", "x": 755, "y": 225 },
-    { "id": "FluxBiz", "desc": "Application Android de microblogging (Java)", "x": 420, "y": 200 },
-    { "id": "SAE22", "desc": "Simulation de signaux électriques (MatLab)", "x": 700, "y": 330 },
-    { "id": "RToDo", "desc": "Application Web de type ToDoList (React)", "x": 1040, "y": 90 },
-    { "id": "Ticket", "desc": "Application de Gestion de tickets de support (JavaScript)", "x": 580, "y": 110 },
-    { "id": "Vacation", "desc": "Script d'analyse de données d'un emploi du temps (Python, Pandas)", "x": 1210, "y": 270 },
-    { "id": "Portfolio", "desc": "Portfolio (React)", "x": 799, "y": 123 },
-    { "id": "Hatsu", "desc": "Console de jeu de type Steamdeck (Python, hardware)", "x": 945, "y": 270 }
+    { "id": "CompanyNetwork", "desc": "Configuration d'un petit réseau d'entreprise", "category": "school"},
+    { "id": "FluxBiz", "desc": "Application Android de microblogging (Java)", "category": "school"},
+    { "id": "SAE22", "desc": "Simulation de signaux électriques (MatLab)", "category": "school"},
+    { "id": "RToDo", "desc": "Application Web de type ToDoList (React)", "category": "personal"},
+    { "id": "Ticket", "desc": "Application de Gestion de tickets de support (JavaScript)", "category": "school"},
+    { "id": "Vacation", "desc": "Script d'analyse de données d'un emploi du temps (Python, Pandas)", "category": "school"},
+    { "id": "Portfolio", "desc": "Portfolio (React)", "category": "school"},
+    { "id": "Hatsu", "desc": "Console de jeu de type Steamdeck (Python, hardware)", "category": "school"},
+    { "id": "Homelab", "desc": "Ma propre infrastructre auto-hébergée", "category": "personal"}
 ],
     
 "links": [
@@ -28,6 +29,10 @@
         { "source": "Portfolio", "target": "RToDo" },
 
         { "source": "Hatsu", "target": "RToDo" },
-        { "source": "Hatsu", "target": "Vacation" }
+        { "source": "Hatsu", "target": "Vacation" },
+
+        { "source": "Homelab", "target": "FluxBiz" },
+        { "source": "Homelab", "target": "CompanyNetwork" },
+        { "source": "Homelab", "target": "SAE22" }
     ]
 }

@@ -41,7 +41,7 @@
         "title": "Application React (Projet personnel)",
         "description": [
             "<p class='texte'><b class='souligne'>Contexte:</b> J'ai réalisé ce projet en autonomie dans un cadre personnel, afin de renforcer mes compétences en programmation.</p>",
-            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de cette SAE était de mettre en place une application JavaScript en utilisant uniquement le framework React, ainsi que l'extension Javascript JSX. </p>",
+            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif de ce projet était de mettre en place une application JavaScript en utilisant uniquement le framework React, ainsi que l'extension Javascript JSX. </p>",
             "<p class='texte'><b class='souligne'>Mission:</b> Ma mission était donc de découvrir le fonctionnement de ce framework afin de réaliser une ToDoList en full React. </p>",
             "<p class='texte'> Ce projet est toujours en cours, et je compte améliorer mon application afin qu'elle fournisse des solutions plus intéressantes pour les utilisateurs </p>",
             "<p class='texte'> Ainsi, je compte l'améliorer en ajoutant une solution de sauvegarde, en ajoutant un filtre et potentiellement un .exe pour lancer l'appli</p> <br />",
@@ -155,5 +155,24 @@
         ],
         "note": "17/20",
         "class": "N/A"
+    },
+    "Homelab": {
+        "title": "Mon Homelab",
+        "description": [
+			"<p class='texte'><b class='souligne'>Contexte:</b> Je réalise ce projet en autonomie dans un cadre personnel, afin d'expérimenter avec de nouvelles technologies.</p>",
+            "<p class='texte'><b class='souligne'>Objectif:</b> L'objectif d'un homelab peut être très différent d'une personne à une autre. Dans mon cas, je réalise mon homelab afin d'héberger mes propres outils et solutions, ainsi que de manière à avoir une meilleure souveraineté sur mes données. </p>",
+            "<p class='texte'><b class='souligne'>Mission:</b> Les missions de ce projet sont diverses et variées, et dépendent des problématiques que je rencontre sur l'instant. Dans la globalité, assurer le fonctionnement de mes solutions est la mission principale. </p>",
+            "<p class='texte'> Ce projet est toujours en cours, j'améliore au fur et à mesure mon infrastructure sur des points de vu de sécurité, d'organisation et de simplicité d'utilisation pour mes utilisateurs. </p>",
+            "<p class='texte'> Actuellement, je fais tourner un hyperviseur Proxmox responsable de la majorité de mes VMs. J'ai un NAS sur lequel mes données les plus critiques ainsi que les sauvegardes sont stockées, et un pare-feu pour la sécurité <br />",
+            "<p class='texte'> J'héberge de nombreux services différents, les plus importants étant mon propre Cloud (Nextcloud) ainsi que mon propre service de backup de photos pour remplacer Google photos (Immich) <br />",
+            "<p class='texte'><b class='souligne'>Résultat:</b> Vous pourrez trouver plus d'informations sur ce projet sur mon github, accessible via le bouton située en dessous. </p>",
+            "<div class='GButton aligne'>",
+				"<a class='down' href='https://github.com/KelyanDev/Homelab' target='_blank' rel='noopener'>",
+					"<i class='bx bx-folder icon'></i>",
+					"<span class='down'> Répertoire Github</span> </a>",
+			"</div>"
+        ],
+        "note": "--",
+        "class": "--"
     }
 }
